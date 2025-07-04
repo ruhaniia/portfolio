@@ -63,7 +63,7 @@ export const aboutSections = [
   }
 ];
 export const aboutPreview = {
-  name: "Bhanu",
+  name: "Hani",
   title: "About Me",
   image: "/images/Hani.jpeg",
   description: [
