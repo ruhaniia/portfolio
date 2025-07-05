@@ -5,7 +5,7 @@ import { PiAppWindowDuotone } from "react-icons/pi";
 export const personalInfo = {
   name: "Ruhanii Avula",
   role: "CFD Appllication Engineer",
-  intro: "Where Simulation meets creation: Innovate, Analyze, Build",
+  intro: "Innovate, Analyze, Build",
   highlighted: "React + 3D interfaces",
   avatar: "/images/Hani.jpeg"
 };
@@ -13,7 +13,7 @@ export const personalInfo = {
 export const aboutSections = [
   {
     title: "About Me",
-    content: `Starting as a curious coder in school, I’ve evolved into a full-stack engineer passionate about crafting clean, user-focused applications.\n\nFrom building hobby tools to scalable systems — it's been a rewarding ride.`
+    content: `I am a computational fluid dynamics specialist who excels at enhancing system performance and efficiency through rigorous analysis. I have a proven track record of delivering high-impact results by tackling complex engineering challenges. By combining analytical rigor with collaborative teamwork, I drive innovative, practical solutions that advance engineering goals.`
   },
   {
     title: "My Journey",
