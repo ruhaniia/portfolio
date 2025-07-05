@@ -5,7 +5,7 @@ import { PiAppWindowDuotone } from "react-icons/pi";
 export const personalInfo = {
   name: "Ruhanii Avula",
   role: "CFD Appllication Engineer",
-  intro: "I build performant, accessible, and scalable web applications.",
+  intro: "Where Simulation meets creation: Innovate, Analyze, Build",
   highlighted: "React + 3D interfaces",
   avatar: "/images/Hani.jpeg"
 };
