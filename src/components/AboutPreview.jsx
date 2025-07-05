@@ -3,19 +3,12 @@ import personalInfo from "../data/personalInfo"; // adjust the path as needed
 
 export default function AboutPreview() {
   return (
-    <div className="flex flex-col lg:flex-row-reverse items-center gap-16">
+    <div className="flex flex-col lg:flex-row-reverse items-center lg:items-center gap-16">
       {/* Circular & Bigger Profile Image */}
       <motion.img
         src={personalInfo.avatar}
         alt="Profile"
-        className="
-          w-70 h-70
-          sm:w-64 sm:h-64
-          lg:w-72 lg:h-72
-          rounded-full object-cover
-          border-4 border-orange-500
-          shadow-xl
-        "
+        className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover border-4 border-orange-500 shadow-xl"
         initial={{ opacity: 0, x: 80 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: false, amount: 0.5 }}
