@@ -26,7 +26,7 @@ export const aboutSections = [
     {
       title: "Image Processing and Machine Learning Training",
       subtitle: "Pantech ProEd Pvt Ltd, Internship",
-      duration: "Jan 2021 – Jun 2021"
+      duration: "Jan 2020 – Jun 2021"
     },
     {
       title: "Vehicle Safety Simulation",
