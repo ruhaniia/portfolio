@@ -6,7 +6,7 @@ export const personalInfo = {
   name: "Ruhanii Avula",
   role: "CFD Appllication Engineer",
   intro: "Innovate, Analyze, Build",
-  highlighted: "React + 3D interfaces",
+  highlighted: "I love using computational fluid dynamics to solve engineering problems. I focus on making systems run more efficiently. I enjoy teaming up with others to create practical solutions.",
   avatar: "/images/Hani.jpeg"
 };
 
