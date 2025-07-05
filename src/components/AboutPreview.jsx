@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import personalInfo from "../data/staticContent"; 
+import { personalInfo } from "../data/staticContent"; 
 
 export default function AboutPreview() {
   return (
