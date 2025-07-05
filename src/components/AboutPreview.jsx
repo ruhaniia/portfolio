@@ -1,19 +1,34 @@
 import { motion } from "framer-motion";
 import { personalInfo } from "../data/staticContent";
 
-export default function AboutPreview() {
-  return (
-    <div className="flex flex-col lg:flex-row-reverse items-center lg:items-center gap-16">
-      {/* Circular & Bigger Profile Image */}
-      <motion.img
-        src={personalInfo.avatar}
-        alt="Profile"
-        className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover border-4 border-orange-500 shadow-xl"
-        initial={{ opacity: 0, x: 80 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: false, amount: 0.5 }}
-        transition={{ duration: 0.6 }}
-      />
+ export default function AboutPreview() {
+   return (
+     <div className="flex flex-col lg:flex-row-reverse items-center gap-16">
+       {/* Circular & Bigger Profile Image */}
+       <motion.img
+         src={personalInfo.avatar}
+         alt="Profile"
+-        className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover border-4 border-orange-500 shadow-xl"
++        /* Example edits: make it a bit smaller, change border, add hover scale */
++        className="
++          w-48 h-48                /* default 192px */
++          sm:w-56 sm:h-56          /* 224px on small+ */
++          lg:w-64 lg:h-64          /* 256px on large+ */
++          rounded-full             /* circle shape */
++          object-cover             /* crop & center */
++          border-2 border-blue-400 /* thinner blue border */
++          shadow-lg                /* stronger shadow */
++          hover:scale-105          /* subtle grow on hover */
++          transition-transform      /* animate scaling */
++        "
+         initial={{ opacity: 0, x: 80 }}
+         whileInView={{ opacity: 1, x: 0 }}
+         viewport={{ once: false, amount: 0.5 }}
+         transition={{ duration: 0.6 }}
+       />
+     </div>
+   );
+ }
 
       {/* Text Content Centered Vertically Beside Image */}
       <motion.div
