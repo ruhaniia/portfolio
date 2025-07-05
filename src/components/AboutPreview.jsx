@@ -17,25 +17,19 @@ export default function AboutPreview() {
 
       {/* Text Content Centered Vertically Beside Image */}
       <motion.div
-        className="text-left max-w-2xl text-lg leading-relaxed text-gray-800 dark:text-gray-300"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: false, amount: 0.5 }}
         transition={{ duration: 0.6 }}
+        className="text-left max-w-2xl text-lg leading-relaxed text-gray-800 dark:text-gray-300"
       >
         <p className="mb-4">
-          Hi, I'm{" "}
-          <span className="font-semibold text-orange-500">
-            {personalInfo.name}
-          </span>
-          , a{" "}
+          Hi, I'm <span className="font-semibold text-orange-500">{personalInfo.name}</span>, a{" "}
           <span className="text-orange-400">{personalInfo.role}</span>.
         </p>
         <p>
           {personalInfo.intro}{" "}
-          <span className="text-orange-400 font-semibold">
-            {personalInfo.highlighted}
-          </span>
+          <span className="text-orange-400 font-semibold">{personalInfo.highlighted}</span>
         </p>
       </motion.div>
     </div>
