@@ -17,7 +17,7 @@ export default function AboutPreview() {
 
       {/* Text Content Centered Vertically Beside Image */}
       <motion.div
-        initial={{ opacity: 0, x: -80 }}
+        initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: false, amount: 0.5 }}
         transition={{ duration: 0.6 }}
