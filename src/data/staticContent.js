@@ -3,8 +3,8 @@ import { SiFramer, SiAdobe } from "react-icons/si";
 import { RiBubbleChartFill } from "react-icons/ri";
 import { PiAppWindowDuotone } from "react-icons/pi";
 export const personalInfo = {
-  name: "Hani",
-  role: "Software Developer",
+  name: "Ruhanii Avula",
+  role: "CFD Appllication Engineer",
   intro: "I build performant, accessible, and scalable web applications.",
   highlighted: "React + 3D interfaces",
   avatar: "/images/Hani.jpeg"
