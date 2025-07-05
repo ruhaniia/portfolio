@@ -5,8 +5,8 @@ import { PiAppWindowDuotone } from "react-icons/pi";
 export const personalInfo = {
   name: "Ruhanii Avula",
   role: "CFD Appllication Engineer",
-  intro: "Innovate, Analyze, Build",
-  highlighted: "I love using computational fluid dynamics to solve engineering problems. I focus on making systems run more efficiently. I enjoy teaming up with others to create practical solutions.",
+  intro: "I love using computational fluid dynamics to solve engineering problems. I focus on making systems run more efficiently. I enjoy teaming up with others to create practical solutions.",
+  highlighted: "Innovate, Analyze, Build",
   avatar: "/images/Hani.jpeg"
 };
 
